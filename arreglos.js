@@ -6,7 +6,7 @@ function multiplicar(array, numero)
   }, numero);
  return resultado;
 }
- 
+ var respuestaMultiplicar = multiplicar([10,20],5);
 //console.log(multiplicar([10,20], 5))
 
 // ejercicio dos
@@ -18,7 +18,8 @@ function numeroCelulares(celulares,codigoValido)
   return (tresPrimerosNumeros == codigoValido || tresUltimosNumeros == codigoValido);
 })
 } 
-    
+
+var respuestaNumeroCelulares = numeroCelulares([784123123,355676784,3423543554],784);
 //console.log(numeroCelulares([784123123,355676784,3423543554], 784));
 //ejercicio tres// RUNN
 
@@ -31,6 +32,7 @@ function multiplica (arr, numero){
     })
  return arry;
 }
+var respuestaMultiplica = multiplica([2,10],5);
 //console.log(multiplica([2,10],5));
 // ejercicio cuatro RUNNN
 
@@ -41,6 +43,7 @@ function dobleMasUno(arr,elemento)
 }
 return arr.map(dobleUno);
 }
+var respuestaDobleMasUno = dobleMasUno([2,3],2);
 //console.log(dobleMasUno([2,3],2));
 // ejercicio cinco RUNNN!!!
 
@@ -52,6 +55,7 @@ function temperaturaFahrenheit (arr)
     return arr.map(fahrenheit)
 }
 
+var respuestaTemperaturaFahrenheit= temperaturaFahrenheit([5,4]);
 //console.log(temperaturaFahrenheit([5,4]));
 // ejercicio seis RUUNNNN!!!
 
@@ -62,6 +66,7 @@ function arrMultiplica (arr){
     };
     return resultado;
 }
+var respuestaMultiplica = arrMultiplica([3,6]);
 //console.log (arrMultiplica([3,6]));
 //ejercicio siete
 var edad = [20, 16, 89, 6];
